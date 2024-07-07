@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="32px"
+    android:contentDescription="TODO"
+    android:orientation="vertical"
+    tools:ignore="HardcodedText,PxUsage">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/logo"
+        tools:ignore="ContentDescription" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="113dp"
+        android:layout_height="68dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="35px"
+        android:layout_marginBottom="35px"
+        android:baselineAligned="false"
+        android:onClick="gerarNovaFrase"
+        android:text="Check"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/textResultado"
+        android:layout_width="377dp"
+        android:layout_height="166dp"
+        android:layout_marginStart="20px"
+        android:layout_marginEnd="20px"
+        android:text="Vamos ver se está levando tudo?"
+        android:textSize="48sp"
+        tools:ignore="TextSizeCheck,VisualLintBounds" />
+
+</LinearLayout>
